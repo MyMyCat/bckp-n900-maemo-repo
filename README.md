@@ -12,20 +12,47 @@ In order to solve this issue, we have made a backup copy of the main repositorie
 
 ## The current addresses are:
 ```
-# Main Repo Dir
-http://repository.maemo.sbs/
+# Nokia Fremantle APPS
+Mirror 1: #deb http://repository.maemo.sbs/d/mirror1/downloads.maemo.nokia.com/fremantle/ssu/apps/
+Mirror 2: #deb http://repository.maemo.sbs/d/mirror2/downloads.maemo.nokia.com/fremantle/ssu/apps/
+Dist: ./
+Components:
 
-# Nokia Freemantle APPS
-Mirror 1: #deb http://repository.maemo.sbs/nokia-mirror1/fremantle/ssu/apps/ ./
-Mirror 2: #deb http://repository.maemo.sbs/nokia-mirror2/fremantle/ssu/apps/ ./
+# NOKIA Fremantle SSU Update
+Mirror 1: #deb http://repository.maemo.sbs/d/mirror1/downloads.maemo.nokia.com/fremantle/ssu/mr0/
+Mirror 2: #deb http://repository.maemo.sbs/d/mirror2/downloads.maemo.nokia.com/fremantle/ssu/mr0/
+Dist: ./
+Components:
 
-NOKIA Freemantle SSU Update
-Mirror 1: #deb http://repository.maemo.sbs/nokia-mirror1/fremantle/ssu/mr0/ ./
-Mirror 2: #deb http://repository.maemo.sbs/nokia-mirror2/fremantle/ssu/mr0/ ./
+# NOKIA OVI
+#deb http://repository.maemo.sbs/d/mirror1/downloads.maemo.nokia.com/fremantle1.2/ovi/
+Dist: ./
+Components:
 
-NOKIA OVI
-#deb http://repository.maemo.sbs/nokia-mirror2/fremantle1.2/ovi/
+# Maemo Extras
+#deb http://repository.maemo.sbs/d/repository.maemo.org/extras/
+Dist: fremantle
+Components: free non-free
 
+# Maemo Extras-Devel
+#deb http://repository.maemo.sbs/d/repository.maemo.org/extras-devel/
+Dist: fremantle
+Components: free non-free
+
+# Maemo Extras-Testing
+#deb http://repository.maemo.sbs/d/repository.maemo.org/extras-testing/
+Dist: fremantle
+Components: free non-free
+
+# Maemo SDK
+#deb http://repository.maemo.sbs/d/repository.maemo.org/pool/fremantle/
+Dist: fremantle/sdk
+Components: free non-free
+
+# Maemo Update2
+#deb http://repository.maemo.sbs/d/repository.maemo.org/pool/fremantle-update2/
+Dist: fremantle/sdk
+Components: free non-free
 ```
  (list will be updated after server update)
 
