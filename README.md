@@ -15,9 +15,16 @@ In order to solve this issue, we have made a backup copy of the main repositorie
 # Main Repo Dir
 http://repository.maemo.sbs/
 
-# Nokia APP
-#deb http://repository.maemo.sbs/nokia/fremantle/ssu/apps/ ./
+# Nokia Freemantle APPS
+Mirror 1: #deb http://repository.maemo.sbs/nokia-mirror1/fremantle/ssu/apps/ ./
+Mirror 2: #deb http://repository.maemo.sbs/nokia-mirror2/fremantle/ssu/apps/ ./
 
+NOKIA Freemantle SSU Update
+Mirror 1: #deb http://repository.maemo.sbs/nokia-mirror1/fremantle/ssu/mr0/ ./
+Mirror 2: #deb http://repository.maemo.sbs/nokia-mirror2/fremantle/ssu/mr0/ ./
+
+NOKIA OVI
+#deb http://repository.maemo.sbs/nokia-mirror2/fremantle1.2/ovi/
 
 ```
  (list will be updated after server update)
