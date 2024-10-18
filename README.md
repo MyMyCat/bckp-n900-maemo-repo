@@ -1,4 +1,4 @@
-# bckp-n900-maemo-repo
+# (Backup) Nokia n900 Maemo 5 Repository
 
 Backups .deb packeges & main Maemo 5 (Freemantle) repositories for Nokia N900
 ![Nokia n900](n900.png)
@@ -62,3 +62,6 @@ The Maemo Team
 
 #### Site projects
 * [Maemo.sbs](https://maemo.sbs/)
+
+#### Donate
+* Wallet USDT TRC20: TQUhqWL7Co4G5fGYYEiTY1CXn4BWvRaSMx
